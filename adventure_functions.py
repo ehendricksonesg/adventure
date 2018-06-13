@@ -76,11 +76,12 @@ def move(user_input):
 def location():
     if int(player.x_position) == 0 and int(player.y_position) == 0:
         print("FRONT PORCH")
-        print("You are standing in front of a house. You can see: the front door, a mailbox, and two windows")
+        print("You are standing in front of a one-story house. You can see: the front door, a mailbox, and two windows")
 
     if int(player.x_position) == -1 and int(player.y_position) == 1:
         print("DINING ROOM")
         print("You see: a large wooden table with a single wooden chair")
+        print("Open doorways are on the eastern and northern walls.")
 
     if int(player.x_position) == 0 and int(player.y_position) == 1:
         print("FOYER")
@@ -89,35 +90,48 @@ def location():
     if int(player.x_position) == 1 and int(player.y_position) == 1:
         print("OFFICE")
         print("You see: a colonial-style office with a large bookshelf.")
-        print("The bookshelf is scarce, with only thirteen books filling its middle shelf.")
+        print("The bookshelf is scarce, with only thirteen books filling its shelves.")
+        print("Open doorways are on the western and northern walls")
 
     if int(player.x_position) == -1 and int(player.y_position) == 2:
         print("KITCHEN")
-        print("You see: ")
+        print("You see: a contemporary kitchen; fully furnished with the classic kitchen appliances.")
+        print("There is a single window above the sink.")
+        print("Open doorways are on the southern and northern walls.")
 
     if int(player.x_position) == 0 and int(player.y_position) == 2:
         print("ELEVATOR")
-        print("You see: ")
+        print("You see: a small, hotel-like elevator. There is a single button marked UP")
+        print("UP")
 
     if int(player.x_position) == 1 and int(player.y_position) == 2:
         print("BATHROOM")
-        print("You see: ")
+        print("You see: a full bathroom. Tile floors, bathtub/shower, sink, and toilet.")
+        print("There is a pattern in the tiles shaped like an eight.")
+        print("Open doorways are on the southern and northern walls.")
 
     if int(player.x_position) == -1 and int(player.y_position) == 3:
         print("KIDS BEDROOM")
-        print("You see: ")
+        print("You see: a very scarce children's bedroom")
+        print("Open doorways are on the eastern and southern walls.")
+        print("There are two twin beds on the north/west walls.")
 
     if int(player.x_position) == 0 and int(player.y_position) == 3:
         print("BACK PORCH")
-        print("You see: ")
+        print("You see: a wooden deck with doors leading to the east and west.")
+        print("There is also a rope bridge that extends a bit to the north, leading to an interesting looking building")
+        print("Three telescopes peer into the sky; each positioned to different positions")
 
     if int(player.x_position) == 1 and int(player.y_position) == 3:
         print("MASTER BEDROOM")
-        print("You see: ")
+        print("You see: what looks to be a floor made of a bunch of king-sized beds pushed together.")
+        print("You look at the beds and count. There are five beds in total.")
+        print("This house is starting to seem strange. Fake in a way. Fabricated...")
+        print("Open doorways are on the western and southern walls.")
 
     if int(player.x_position) == 0 and int(player.y_position) == 4:
         print("OBSERVATORY")
-        print("You see: ")
+        print("You see: a fantastical laboratory.")
 
 
 
